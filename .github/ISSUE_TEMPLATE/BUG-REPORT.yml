@@ -25,25 +25,13 @@ body:
         It's also helpful to try to describe what were you doing, and what led to the error (the steps to reproduce the issue on our end).
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    validations:
-      required: false
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Chrome
-        - Firefox
-        - Safari
-        - Microsoft Edge
-        - Others
   - type: textarea
     id: logs
     attributes:
       label: Additional details
       description: |
-        Screenshots, error logs, anything that will give us more context about the issue you are encountering!
+        Please tell us what device, operating system and browser you were using when the issues occured. 
+        Screenshots, error logs, anything that will give us more context about the issue is much appreciated!
         
         Tips: 
           1. If you know how to access your browser Developer Tool, you may find error messages in the browser console.
