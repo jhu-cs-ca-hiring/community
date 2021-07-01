@@ -1,0 +1,51 @@
+name: Feature Request
+description: Let us know what you need and we will build it
+title: "💡 Replace this text with a brief title for your request"
+labels: [enhancement]
+assignees:
+  - madooei
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request report!
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue (request) for this feature?
+      description: Please search [here](https://github.com/jhu-cs-ca-hiring/feedback/labels/enhancement) to see if an issue already exists for the feature you have in mind.
+      options:
+      - label: I have searched the existing issues
+        required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Describe the problem this feature request is intended to address.
+      description: Please be as specific as possible. 
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe how the reuested feature solves the problem.
+      description: Provide details of feature requested. 
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Additional details
+      description: |
+        Gives context around how and why the feature will be used, its impact.
+        Describe any ideas you have on how we can implement it; links to relevant examples of context and existing work.
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: Contact details
+      description: | 
+        How can we get in touch with you? (It's optional to provide this information)
+        Our team might invite you to join us for a brainstorm / co-creation session if you're up for it.
+      placeholder: ex. email@example.com
+    validations:
+      required: false
